@@ -20,7 +20,7 @@ import (
 type stepConvertToTemplate struct{}
 
 type templateConverter interface {
-	ShutdownVm(*proxmox.VmRef) (string, error)
+	StopVm(*proxmox.VmRef) (string, error)
 	CreateTemplate(*proxmox.VmRef) error
 }
 
