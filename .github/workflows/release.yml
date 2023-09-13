@@ -33,6 +33,8 @@ jobs:
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
+      - name: install signore
+        uses: hashicorp/setup-signore-package@v1
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v5
         with:
