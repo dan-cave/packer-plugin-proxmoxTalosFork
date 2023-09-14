@@ -34,5 +34,5 @@ archives:
   - format: zip
     name_template: 'v{{ .Version }}_{{ .Env.API_VERSION }}_{{ .Os }}_{{ .Arch }}'
 checksum:
-  name_template: 'v{{ .Version }}_SHA256SUMS'
+  name_template: '{{ .ProjectName }}_v{{ .Version }}_SHA256SUMS'
   algorithm: sha256
