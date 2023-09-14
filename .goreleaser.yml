@@ -27,9 +27,9 @@ changelog:
       - '^test:'
 snapshot:
   name_template: '{{ .Version }}-SNAPSHOT-{{ .ShortCommit }}'
-release:
-  draft: true
-  prerelease: auto
+# release:
+#   draft: true
+#   prerelease: auto
 archives:
   - format: zip
     name_template: '{{ .ProjectName }}_v{{ .Version }}_{{ .Env.API_VERSION }}_{{ .Os }}_{{ .Arch }}'
