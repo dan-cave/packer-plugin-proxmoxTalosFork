@@ -60,7 +60,8 @@ archives:
 checksum:
   name_template: '{{ .ProjectName }}_v{{ .Version }}_SHA256SUMS'
   algorithm: sha256
-#signs:
+# Broken
+  #signs: 
 #  - artifacts: checksum
 #    args:
 #      # if you are using this is in a GitHub action or some other automated pipeline, you
