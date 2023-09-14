@@ -1,4 +1,4 @@
-module github.com/hashicorp/packer-plugin-proxmox
+module github.com/dan-cave/packer-plugin-proxmoxTalosFork
 
 go 1.19
 
