@@ -9,9 +9,6 @@
 name: "Go Test Windows"
 
 on:
-  push:
-    branches:
-      - 'main'
   pull_request:
 
 permissions:

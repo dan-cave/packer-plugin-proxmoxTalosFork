@@ -9,9 +9,6 @@
 name: "Go Test MacOS"
 
 on:
-  push:
-    branches:
-      - 'main'
   pull_request:
 
 permissions:
